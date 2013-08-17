@@ -1,5 +1,7 @@
 /deps
 /.eunit
-ebin/*
 *#
 *~
+.settings
+.project
+target

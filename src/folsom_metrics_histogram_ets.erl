@@ -28,6 +28,8 @@
 
 -behaviour(gen_server).
 
+-registered(folsom_metrics_histogram_ets).
+
 %% API
 -export([start_link/0, new/2]).
 

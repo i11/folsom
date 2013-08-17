@@ -27,6 +27,8 @@
 
 -behaviour(supervisor).
 
+-registered(folsom_sup).
+
 %% API
 -export([start_link/0, create_tables/0]).
 

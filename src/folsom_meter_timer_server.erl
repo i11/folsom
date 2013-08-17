@@ -27,6 +27,8 @@
 
 -behaviour(gen_server).
 
+-registered(folsom_meter_timer_server).
+
 %% API
 -export([start_link/0, register/2, unregister/1, dump/0]).
 
